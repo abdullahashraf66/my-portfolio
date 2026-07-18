@@ -522,3 +522,85 @@ html,
 body{
     overflow-x:hidden;
 }
+
+@media (max-width: 768px){
+
+    nav{
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 40px auto;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .hero-text p:last-of-type{
+        max-width: 100%;
+    }
+
+    .hero-buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-image img{
+        max-width: 300px;
+    }
+
+    .about{
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .about-info{
+        width: 100%;
+    }
+
+    .info-box{
+        justify-content: center;
+        text-align: left;
+    }
+
+    .skills-container{
+        gap: 15px;
+    }
+
+    .skill-card{
+        width: 90px;
+        padding: 18px;
+    }
+
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form{
+        width: 100%;
+    }
+
+    .hero-text h1{
+        font-size: 3rem;
+    }
+
+    .about-content h2{
+        font-size: 36px;
+    }
+
+}
